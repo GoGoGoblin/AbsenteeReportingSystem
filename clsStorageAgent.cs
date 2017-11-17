@@ -32,11 +32,6 @@ public class clsStorageAgent : IStorageAgent
     public void SaveData(IDbConnection Connection, string strQuery)
     {
         throw new NotImplementedException();
-    }
-    
-
-
-
-
+    }  
 
 }
