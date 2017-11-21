@@ -12,6 +12,8 @@ public class clsReport
     public string AbsDate { get; set; }
     public string Reason { get; set; }
 
+    public clsRept(){ }
+    
     public clsReport(string fname, string lname, string tname, string room, string ginfo, string rptdate, string absdate, string reason)
     {
         Fname = fname;
