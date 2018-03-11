@@ -29,9 +29,5 @@ public class clsStorageAgent : IStorageAgent
         return dataTable;
     }
 
-    public void SaveData(IDbConnection Connection, string strQuery)
-    {
-        throw new NotImplementedException();
-    }  
 
 }
