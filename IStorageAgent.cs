@@ -1,13 +1,13 @@
 ﻿using System.Data;
 
-public interface IStorageAgent
-{
-    IDbConnection GetStorageConnection();
+    public interface IStorageAgent
+    {
 
-    void CloseStorageConnection(IDbConnection con);
+        IDbConnection GetStorageConnection();
 
-    DataTable GetData(IDbConnection con, string strQuery);
+        void CloseStorageConnection(IDbConnection con);
 
-    void SaveData(IDbConnection con, string strQuery);
+        DataTable GetData(IDbConnection con, string strQuery);
 
-}
+
+    }
