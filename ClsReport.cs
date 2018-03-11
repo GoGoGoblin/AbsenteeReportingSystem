@@ -12,7 +12,6 @@ public class ClsReport
     public string AbsDate { get; set; }
     public string Reason { get; set; }
 
-    public ClsReport() { }
 
     public ClsReport(string fname, string lname, string tname, string room, string ginfo, string rptdate, string absdate, string reason)
     {
